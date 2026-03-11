@@ -14,6 +14,7 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] ESLint configuration
 - [x] Memory bank documentation
 - [x] Recipe system for common features
+- [x] GitHub Pages deployment setup
 
 ## Current Structure
 
@@ -79,6 +80,14 @@ export async function GET() {
 - [ ] Add more recipes (auth, email, etc.)
 - [ ] Add example components
 - [ ] Add testing setup recipe
+
+## Deployment
+
+GitHub Pages deployment is configured:
+- Run `bun run deploy` to build and deploy to GitHub Pages
+- Requires `gh-pages` package (installed)
+- Next.js configured with `output: 'export'` for static files
+- Output directory: `out/`
 
 ## Session History
 
